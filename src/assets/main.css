@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.formkit-form {
+  @apply grid md:grid-cols-2 gap-x-10;
+}
+.formkit-inner {
+  box-shadow: none !important;
+}
+.formkit-wrapper label {
+  @apply text-gray-400 -mb-1 text-xs;
+}
+.formkit-inner input {
+  border: 2px solid #e2e8f0 !important;
+  @apply rounded-md px-4 py-2.5 block w-full focus:shadow focus:shadow-indigo-500/50;
+}
+.formkit-inner input:focus {
+  border-color: #6366f1 !important;
+}
+button.formkit-input {
+  background-color: #6366f1 !important;
+  @apply  text-white font-bold py-3 px-4 rounded-md;
+}
+button.formkit-input:hover {
+  background-color: #797bf3 !important;
+}

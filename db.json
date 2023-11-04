@@ -1,0 +1,34 @@
+{
+  "clients": [
+    {
+      "name": "Jhon",
+      "lastname": "Doe",
+      "email": "jd@mail.com",
+      "phone": "123-456-789",
+      "company": "ABC",
+      "job": "Developer",
+      "state": false,
+      "id": 1
+    },
+    {
+      "name": "Norma",
+      "lastname": "Flores",
+      "email": "norma@mail.com",
+      "phone": "123-456-789",
+      "company": "Qiru",
+      "job": "Admin",
+      "state": true,
+      "id": 5
+    },
+    {
+      "name": "Test",
+      "lastname": "TEST",
+      "email": "test@mail.com",
+      "phone": "123-456-789",
+      "company": "Google",
+      "job": "Developer",
+      "state": false,
+      "id": 6
+    }
+  ]
+}
